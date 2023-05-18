@@ -21,11 +21,14 @@ npro
 echo " : "
 lsblk
 echo " "
-echo "Your OS version is : "
+echo "Your OS version
+sleep 1
 cat /etc/os-release
 echo " "
-echo " checking your system bits..."
+echo " checking your system bits.
+sleep 1
 getconf LONG_BIT
+
 echo " "
 echo "Your CPU stats are : "
 lscpu
