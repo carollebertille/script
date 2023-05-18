@@ -27,13 +27,13 @@ sleep 1
 
 echo "Your OS version is : "
 sleep 1
-cat /etc/os-release
+cat /etc/*release
 echo " "
 sleep 1
 
 echo " checking your system bits..."
 sleep 1
-getconf LONG_BIT
+arch
 echo " "
 sleep 1
 echo "Your CPU stats are : "
