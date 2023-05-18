@@ -18,8 +18,7 @@ echo " "
 echo "Number of cpu : "
 npro
 
-echo " : "
-lsblk
+
 echo " "
 echo "Your OS version
 sleep 1
@@ -36,4 +35,3 @@ echo " "
 
 echo " What is our system load averages? "
 uptime
-sleep 3
