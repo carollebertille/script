@@ -1,8 +1,4 @@
 #!/bin/bash
-
-
-
-
 echo "We are about to do a full system inventory. Please be patient......"
 
 echo "The kernel version is : "
